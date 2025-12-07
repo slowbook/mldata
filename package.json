@@ -1,0 +1,16 @@
+{
+  "name": "amazon-scrapper",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/selenium-webdriver": "^4.35.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chromedriver": "^142.0.3",
+    "selenium-webdriver": "^4.38.0"
+  }
+}
